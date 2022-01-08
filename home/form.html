@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="form.html">Form</li>
+            <li><a href="">Table</a></li>
+            <li><a href="">Semantic</a></li>
+        </ul>
+    </nav>
+    <h3 class="first-head">Fill up this form for our service:</h3>
+    <form action="">
+        <div class="text-input">
+            <p>
+                Name: <input type="text" name="name" id="name" placeholder="Write your name">
+            </p>
+            <p>
+                Email: <input type="text" name="Email" id="name" placeholder="Write your email">
+            </p>
+            <p>
+                Phone: <input type="text" name="phone" id="name" placeholder="Write your Phone">
+            </p>
+        </div>
+        <fieldset>
+            <legend>Select your country</legend>
+            <p><label for="bd"><input type="radio" name="country" id="bd">Bangladesh</label></p>
+            <p><label for="ind"><input type="radio" name="country" id="ind">India</label></p>
+            <p><label for="pak"><input type="radio" name="country" id="pak">Pakisthan</label></p>
+        </fieldset>
+        <fieldset>
+            <legend> Select you language</legend>
+            <p><label for="bangla"><input type="checkbox" name="lang" id="bangla">Bangla</label></p>
+            <p><label for="hind"><input type="checkbox" name="lang" id="hind">Hindi</label></p>
+            <p><label for="urd"><input type="checkbox" name="lang" id="urd">Urdu</label></p>
+            <p><label for="us"><input type="checkbox" name="lang" id="us">English</label></p>
+        </fieldset>
+        <button type="submit" class="button">Submit</button>
+        <button type="reset" class="button">Clear</button>
+    </form>
+</body>
+</html>

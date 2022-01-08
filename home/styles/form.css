@@ -1,0 +1,32 @@
+body{
+    font-size: 26px;
+}
+#name{
+    font-size: 22px;
+}
+#name:focus{
+    background-color: coral;
+    font-family: cursive;
+}
+#name:hover{
+    border: 3px solid lightblue;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: 700;
+}
+.first-head{
+    font-family:monospace ;
+}
+fieldset{
+    width: 320px;
+    border: 2px solid salmon;
+    background-color: rgba(250, 128, 114, 0.295);
+    box-shadow: 5px 5px 10px rgba(56, 56, 189, 0.788);
+}
+fieldset p{
+    margin: 0 38px;
+}
+.button{
+    padding: 5px 15px;
+    margin: 15px 20px;
+}
